@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ background-image: url(https://assets.pokemon.com/static2/_ui/img/chrome/container_bg.png); 
+background-attachment: fixed; 
+display: block;
+position: relative;
+overflow: hidden;
+max-width: 1280px;
+}
+.card{
+    list-style: none;
+    padding: 40px;
+}
+#pokedex{
+    /* background-color: aqua; */
+    padding-inline-start: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
